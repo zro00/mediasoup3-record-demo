@@ -72,6 +72,7 @@ https://localhost:8080
 | RECORD_FILE_LOCATION_PATH | string | Path to store the recorded files (user running node MUST have read/write permission) |
 | GSTREAMER_DEBUG_LEVEL | number | GStreamer Debug Level (GStreamer only) |
 | PROCESS_NAME | string | The command to use (GStreamer/FFmpeg) (case sensitive) default is FFmpeg |
+| SERVER_PORT | number | Server port number (default is 3000). Note if you change this you will also need to edit the WebSocket connection url. |
 
 ---
 
@@ -80,6 +81,5 @@ https://localhost:8080
 - video/audio only recording
 - FFmpeg Sample (Done)
 - Multiple formats (mp4/avi etc)
-- Multiple Codec support (VP9/VP8/H264)
-- Option to play the recorded file using RTP Producer after recording   
+- Option to play the recorded file using RTP Producer after recording
 - Docker support
